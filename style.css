@@ -1,0 +1,117 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display:grid;
+    grid-template-rows: 80px 1fr 1fr 1fr;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(57, 82, 123);
+}
+
+.inner-header {
+    display:grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    align-items: center;
+    color: white;
+    opacity: 0.95;
+    position: absolute;
+    height: 50px;
+    width: 60%;
+    z-index: 5;
+}
+
+.studio-ghibli-title{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+h1, h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.user {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: end;
+    align-items: center;
+}
+
+.account {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+    align-items: center;
+}
+
+.media-platforms{
+
+}
+
+
+.spirited-away {
+    background-image: url("https://ghiblicollection.com/userFiles/uploads/Home%20Page/optimized/Ghibli-Hero-1-New.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.feature{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.description{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
+
+.description-title {
+    text-transform: uppercase;
+}
+
+button {
+    width: 100px;
+    margin: auto;
+}
+
+.totoro{    
+    background-image: url("https://ghiblicollection.com/userFiles/uploads/Home%20Page/optimized/Film-Feature-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.ponyo {
+    background-image: url("https://ghiblicollection.com/userFiles/uploads/Home%20Page/optimized/Feature-Film-Ponyo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+}
