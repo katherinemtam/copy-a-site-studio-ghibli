@@ -1,1 +1,2 @@
-# lab-02d-copy-a-site-01
+# copy-a-site
+Recreated ghiblicollection.com/
